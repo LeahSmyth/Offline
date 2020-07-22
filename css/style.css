@@ -1,0 +1,500 @@
+* {
+	padding:0em;
+	margin:0;
+	font-size:100%;
+	line-height:1em;}
+
+body{font-family:'Open Sans',sans-serif;}
+
+/*---Nav---*/
+
+#logo {     float:left;
+            clear:none;
+            width:10%;
+            margin:10px;
+            margin-left:10%;}
+
+nav {z-index:1;
+    background:#0F4484;
+    position:fixed;
+	width:100%;
+    padding:.7em 0 0 0;}
+        
+nav ul {list-style-type:none; padding-left:75%; margin-right:10%;}
+        
+nav li {display:inline; padding-top:.25em;}
+
+.instagram{height:15px;}
+
+.twitter{height:15px;}
+
+/*---Top Section---*/
+
+.column-top {
+  float:left;
+  width:50%;
+  padding:4em 0 4em 0;}
+
+.row-top{padding-top:4em;}
+
+.row-top:after {
+  content:"";
+  display:table;
+  clear:both;}
+
+.top-phone{width:65%; float:right; padding-right:37%; padding-top:5%;}
+
+.top-left{margin:25% 0 0 35%;}
+
+.app-icon{
+    margin:25% 2% 0 37%;
+    float:left;
+    max-width:15%;}
+
+h1{font-size:2.1em; color:#0F4484; text-align:left; margin-left:10%; padding-top:3%; padding-bottom:0em;}
+
+h2{font-size:1.6em; color:#0F4484; text-align:left; margin-left:3em; padding-top:1.5%; padding-bottom:0em;}
+
+.app-store{width:25%; margin:5% 2% 0 37%; }
+
+.google-store{width:25%;}
+
+/*---Demo---*/
+
+h3{font-size:1.4em; text-align:left; margin-left:3em; padding-top:0em; padding-bottom:0em; color:#FFF;}
+
+.blue{margin-top:-10em; padding:10em 0 3.5em 0; background-color:#0F4484;}
+
+.blue-bottom{padding:3.5em 0 3.5em 0; background-color:#0F4484; margin-top:3em;}
+
+.CTA{text-align:center;
+    padding:1em 1em 1em 1em;
+    background:#FFFFFF;
+    text-decoration:none;
+    display:block;
+    color:#0F4484;
+    margin:0 auto;
+    width:100px;
+    margin-bottom:0em;
+    border-radius:.7em;
+    color:#0F4484;
+    }
+
+.CTA-2{text-align:center;
+    padding:1em 1em 1em 1em;
+    background:#FFFFFF;
+    text-decoration:none;
+    display:block;
+    color:#0F4484;
+    margin:0 auto;
+    width:180px;
+    margin-bottom:0em;
+    border-radius:.7em;
+    }
+
+.hvr-grow-shadow {
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px transparent;
+  -webkit-transition-duration:0.3s;
+  transition-duration:0.3s;
+  -webkit-transition-property:box-shadow,transform;
+  transition-property:box-shadow,transform;
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  box-shadow:0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);}
+
+/*---About---*/
+
+.about{padding:3em 0 3em 0;}
+
+.intro{font-size:.9em;
+color:#333333;
+padding:1em 20% 1em 20%;
+line-height:1.5em;}
+
+.intro-first{font-size:1em;
+color:#333333;
+padding:1em 20% 1em 20%;
+line-height:1.5em;}
+
+/*---Icons---*/
+
+.icon-grid{padding-left:20%; padding-right:20%;background-color:#0F4484;}
+
+.icon-sq{width:4em;} 
+
+ul.icon-list {list-style-type:none; padding:3em 0em 3em 0em;}
+
+ul {list-style-type:none; margin:0; padding:1em 0em 1em 0em; text-align:center;}
+
+ul li {display:inline-block; margin:0 1em 1em 0; position:relative;}
+
+.hvr-grow {
+  display:inline-block;
+  vertical-align:middle;
+  -webkit-transform:perspective(1px) translateZ(0);
+  transform:perspective(1px) translateZ(0);
+  box-shadow:0 0 1px transparent;
+  -webkit-transition-duration:0.3s;
+  transition-duration:0.3s;
+  -webkit-transition-property:transform;
+  transition-property:transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform:scale(1.08);
+  transform:scale(1.08);
+}
+
+/*---Sections---*/
+
+h3{font-size:1.4em; text-align:left; margin-left:3em; padding-top:0em; padding-bottom:0em; color:#FFF;}
+
+.column-left {
+  float:left;
+  width:50%;
+  padding:2em 0 1em 0;}
+
+.row-left{padding-top:4em;}
+
+.row-left:after {
+  content:"";
+  display:table;
+  clear:both;}
+
+.detox-image-left{
+    float:left;
+    margin-top:-2.25em;
+    max-width:20%;}
+
+.right-phone{width:30%; float:right; padding-right:53%;}
+
+
+.detox-light-blue{color:#3FA9F5; font-size:.9em; padding:1em 0% 1em 53%; line-height:1.5em;}
+
+.bg-light-blue{background-color:#3FA9F5; margin:13% 0 0 53%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.detox-purple{color:#6740B4; font-size:.9em; padding:1em 0% 1em 53%; line-height:1.5em;}
+
+.bg-purple{background-color:#6740B4; margin:13% 0 0 53%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.detox-pink{color:#F16DDE; font-size:.9em; padding:1em 0% 1em 53%; line-height:1.5em;}
+
+.bg-pink{background-color:#F16DDE; margin:13% 0 0 53%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.column-right {
+  float:left;
+  width:50%;
+  padding:2em 0 1em 0;}
+
+.row-right{padding-top:4em;}
+
+.row-right:after {
+  content:"";
+  display:table;
+  clear:both;}
+
+.detox-image-right{
+    float:left;
+    margin-top:-2.25em;
+    max-width:20%;}
+
+.left-phone{width:30%; float:left; padding-left:53%;}
+
+
+.detox-red{color:#EB5457; font-size:.9em; padding:1em 53% 1em 0%; line-height:1.5em;}
+
+.bg-red{background-color:#EB5457; margin:13% 53% 0 0%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.detox-orange{color:#FD9E4D; font-size:.9em; padding:1em 53% 1em 0%; line-height:1.5em;}
+
+.bg-orange{background-color:#FD9E4D; margin:13% 53% 0 0%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.detox-aqua{color:#23D1D2; font-size:.9em; padding:1em 53% 1em 0%; line-height:1.5em;}
+
+.bg-aqua{background-color:#23D1D2; margin:13% 53% 0 0%; padding:2em 2em 2em 2em; border-radius:.5em;}
+
+
+.gif{width:40%; padding-left:30%;}
+
+.wallpapers{width:40%; padding:0 30% 3em 30%;}
+
+
+/*---Footer---*/
+
+a{text-decoration:none;}
+a:link{color:#0F4484;}
+.website:link{color:#FFFFFF;}
+.website:hover{color:#3FA9F5;}
+.website a:visited{color:#FFFFFF;}
+a:hover{color:#3FA9F5;}
+
+.social {background-color:#0F4484; padding:3em;}
+
+.social img {padding:0em 2em 1em 0em;
+    float:right;
+    text-align:right;
+    display:inline-block;
+    max-width:100%;
+    }
+
+.instagram{margin-right:9.5%;}
+
+.social p {margin-left:7%;
+    color:#FFFFFF;
+    font-size:.8em;
+    text-decoration:none;
+    float:left;
+    text-align:left;
+    display:inline-block;}
+
+/*----MEDIA QUERIES-----*/
+
+/*---TABLET---*/
+
+@media (max-width:979px) {
+    
+/*---Nav---*/
+
+#logo {width:15%; margin:10px; margin-left:7%;}
+
+nav {padding:.7em 0 .7em 0;}
+        
+nav ul {padding-left:75%; margin-right:3%; padding:.7em 0 0 75%;}
+        
+nav li {display:inline; padding-top:0em;}
+    
+/*---Top Section---*/
+
+.column-top {padding:4em 0 4em 0;}
+
+.top-phone{width:65%; padding-right:30%; padding-top:5%;}
+
+.top-left{margin:25% 0 0 30%;}
+
+.app-icon{margin:25% 2% 0 30%; max-width:15%;}
+
+h1{font-size:1.9em; color:#0F4484; text-align:left; margin-left:10%; padding-top:3%; padding-bottom:0em;}
+
+h2{font-size:1em; color:#0F4484; text-align:left; margin-left:3em; padding-top:1.5%; padding-bottom:0em;}
+
+.app-store{width:25%; margin:5% 2% 0 30%; }
+
+.google-store{width:25%;}
+    
+/*---Demo---*/
+    
+.blue{margin-top:-8em; padding:3em 0 2em 0; background-color:#0F4484;}
+    
+.blue{margin-top:-8em; padding:7em 0 3.5em 0; background-color:#0F4484;}
+
+.blue-bottom{padding:2em 0 2em 0; margin-top:3em;}
+
+/*---About---*/
+
+.about{padding:2.5em 0 2.5em 0;}
+
+.intro{font-size:.7em;
+padding:1em 15% 1em 15%;
+line-height:1.3em;}
+    
+.intro-first{font-size:.8em;
+padding:1em 15% 1em 15%;
+line-height:1.3em;}
+
+/*---Icons---*/
+
+.icon-grid{padding-left:15%; padding-right:15%;}
+
+.icon-sq{width:4.3em;} 
+
+ul.icon-list {padding:2em 0em 2em 0em;}
+
+/*---Sections---*/
+
+h3{font-size:1.1em; margin-left:3em;}
+
+.column-left {padding:2em 0 1em 0;}
+
+.detox-image-left{margin-top:-1.8em; max-width:25%;}
+
+.right-phone{width:40%; padding-right:45%;}
+
+
+.detox-light-blue{font-size:.7em; padding:1em 0% 1em 45%; line-height:1.3em;}
+
+.bg-light-blue{margin:15% 0 0 45%; padding:1.5em 2em 1.5em 2em;}
+
+
+.detox-purple{font-size:.7em; padding:1em 0% 1em 45%; line-height:1.3em;}
+
+.bg-purple{margin:15% 0 0 45%; padding:1.5em 2em 1.5em 2em;}
+
+
+.detox-pink{font-size:.7em; padding:1em 0% 1em 45%; line-height:1.3em;}
+
+.bg-pink{margin:15% 0 0 45%; padding:1.5em 2em 1.5em 2em;}
+
+
+.column-right {padding:2em 0 1em 0;}
+
+.detox-image-right{margin-top:-1.8em; max-width:25%;}
+
+.left-phone{width:40%; padding-left:45%;}
+
+
+.detox-red{font-size:.7em; padding:1em 45% 1em 0%; line-height:1.3em;}
+
+.bg-red{margin:15% 45% 0 0%; padding:1.5em 2em 1.5em 2em;}
+
+
+.detox-orange{font-size:.7em; padding:1em 45% 1em 0%; line-height:1.3em;}
+
+.bg-orange{margin:15% 45% 0 0%; padding:1.5em 2em 1.5em 2em;}
+
+
+.detox-aqua{font-size:.7em; padding:1em 45% 1em 0%; line-height:1.3em;}
+
+.bg-aqua{margin:15% 45% 0 0%; padding:1.5em 2em 1.5em 2em;}
+
+
+.gif{width:40%; padding-left:30%;}
+
+.wallpapers{width:50%; padding:0 25% 3em 25%;}
+
+/*---Footer---*/
+
+.social {padding:1.5em 0em 2em 0em;}
+
+.social img {padding:0em 1em 1em 0em;}
+
+.instagram{margin-right:.5%;}
+
+.social p{margin-left:5%;}
+
+}
+	
+/*---SMARTPHONE---*/
+
+@media (max-width:414px) {
+    
+/*---Nav---*/
+
+#logo {width:20%; margin:10px; margin-left:5%;}
+
+nav {padding:.5em 0 .5em 0; width:100%;}
+        
+nav ul {margin-right:1.5%; padding:.5em 0 0 80%;}
+    
+.instagram{height:12px;}
+
+.twitter{height:12px;}
+    
+/*---Top Section---*/
+
+.column-top {padding:2em 0 2em 0;}
+
+.top-phone{width:80%; padding-right:20%; padding-top:3%;}
+
+.top-left{margin:25% 0 0 15%;}
+
+.app-icon{margin:25% 2% 0 15%; max-width:18%;}
+
+h1{font-size:1em; margin-left:10%; padding-top:1.5%; padding-bottom:0em;}
+
+h2{font-size:.7em; margin-left:10%; padding-top:1.1%; padding-bottom:0em;}
+
+.app-store{width:24%; margin:5% 2% 0 0%;}
+
+.google-store{width:24%;}
+    
+.CTA a{font-size:1em;}
+    
+.blue{margin-top:-4em; padding:3em 0 3em 0; background-color:#0F4484;}
+    
+.intro-first{font-size:.8em;
+padding:1em 15% 1em 15%;
+line-height:1.3em;}
+
+/*---Icons---*/
+
+.icon-grid{padding-left:15%; padding-right:15%;}
+
+.icon-sq{width:4em;} 
+
+ul.icon-list {padding:1em 0em 1em 0em;}
+
+/*---Sections---*/
+
+h3{font-size:1em; margin-left:3em;}
+
+.column-left {width:100%; padding:0em 0 .5em 0;}
+
+.row-left{padding-top:.5em;}
+
+.detox-image-left{
+    margin-top:-1.8em;
+    max-width:18%;}
+
+.right-phone{display:none;width:40%;padding-right:30%;}
+
+
+.detox-light-blue{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-light-blue{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+
+.detox-purple{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-purple{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+
+.detox-pink{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-pink{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+
+.column-right {float:right; width:100%; padding:0em 0 .5em 0;}
+
+.row-right{padding-top:.5em;}
+
+.detox-image-right{margin-top:-1.8em; max-width:18%;}
+
+.left-phone{display:none; width:40%;padding-left:30%;}
+
+.detox-red{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-red{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+.detox-orange{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-orange{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+.detox-aqua{font-size:.6em; padding:1em 17% 1em 17%; line-height:1.3em;}
+
+.bg-aqua{margin:13% 15% 0 15%; padding:1.5em 1.5em 1.5em 1.5em;}
+
+.gif{width:60%; padding-left:20%;}
+
+.wallpapers{width:60%; padding:0 20% 1em 20%;}
+    
+/*---Footer---*/
+
+.social {padding:1.5em 0em 2em 0em;}
+
+.social img {padding:0em 1em 1em 0em;}
+
+.instagram{margin-right:.5%;}
+
+.social p{margin-left:5%; font-size:.6em;}
+}
